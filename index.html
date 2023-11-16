@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+<form id="survey-form">
+ <fieldset>
+        <label for="name" id="name-label">Enter Your Name:
+        </label><input id="name" name="name" type="text" placeholder="Enter Your Name" required /></label>
+    <label for="email" id="email-label">Enter Your Email: <input id="email" name="email" type="email" placeholder="Enter Your email" required /></label>
+        <label for="number" id="number-label">Enter your number <input id="number" name="number" type="number" min="10" max="10" placeholder="enter your number"required /></label>
+      </fieldset>
+      <fieldset>
+      <label>Which option best describes your current role?</label>
+      <select id="dropdown" name="referrer">
+            <option value="">Select current role</option>
+            <option value="1">Student</option>
+            <option value="2">Full time Job</option>
+            <option value="3">Full time Learner</option>
+   <option value="4">Prefer Not To Say</option>
+            <option          <option value="5">Other</option>
+          </select></fieldset>
+          <fieldset>
+          <legend>Would you recommend freeCodeCamp to a friend?</legend>
+            
+        <label for="Definatley"><input id="Definatley" type="radio" name="Would you recommend freeCodeCamp to a friend?" class="inline" value="Definatley" checked /> Definatley</label>
+        <label for="Maybe"><input id="Maybe" type="radio" name="Would you recommend freeCodeCamp to a friend?" class="inline" value="Maybe" /> Maybe</label>
+          </label>
+          <label for="Not sure"><input id="Not sure" type="radio" name="Would you recommend freeCodeCamp to a friend?" class="inline" value="Not sure"/> Not sure</label></fieldset>
+          <label for="Front-end Projects">
+        <input class="inline" id="Front-end Projects" type="checkbox" required name="Front-end Projects" value="Front-end Projects"/>Front-end Projects
+      </label>
+ <input class="inline" id="Back-end Projects" type="checkbox" required name="Back-end Projects"  value="Back-end Projects"/>Back-end Projects
+      </label>
+ <input class="inline" id="Data Visualization" type="checkbox" required name="Data Visualization" value="Data Visualization"/>Data Visualization
+      </label>
+ <input class="inline" id="Challenges" type="checkbox" required name="Challenges" value="Challenges"/>Challenges
+      </label>
+ <input class="inline" id="Open Source Community" type="checkbox" required name="Open Source Community" value="Open Source community"/>Open Source Community
+      </label>
+      <label for="suggestion">Any comments or suggestions?<textarea id="suggestion" name="suggestion" rows="3" cols="30"></textarea></label>
+      <input id="submit" type="submit" value="Submit" />
+
+
+
+</form>
+</body>
+</html>
